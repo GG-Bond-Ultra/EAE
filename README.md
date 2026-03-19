@@ -18,26 +18,12 @@ Our code is based on [GFNet](https://github.com/raoyongming/GFNet) and [JEI-DNN]
 - torch>=1.8.0
 - torchvision
 - timm
+- scikit_learn
+- fvcore
 
-*Note*: To use the ```rfft2``` and ```irfft2``` functions in PyTorch, you need to install PyTorch>=1.8.0. Complex numbers are supported after PyTorch 1.6.0, but the ```fft``` API is slightly different from the current version. 
+### Supported datasets：
 
-**Data preparation**: download and extract ImageNet images from http://image-net.org/. The directory structure should be
-
-```
-│ILSVRC2012/
-├──train/
-│  ├── n01440764
-│  │   ├── n01440764_10026.JPEG
-│  │   ├── n01440764_10027.JPEG
-│  │   ├── ......
-│  ├── ......
-├──val/
-│  ├── n01440764
-│  │   ├── ILSVRC2012_val_00000293.JPEG
-│  │   ├── ILSVRC2012_val_00002138.JPEG
-│  │   ├── ......
-│  ├── ......
-```
+Out of the box this codebase supports CIFAR10, CIFAR100, FLOWERS102.
 
 ### Evaluation
 
