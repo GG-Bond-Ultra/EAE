@@ -7,6 +7,8 @@ This repository contains PyTorch implementation for EAE (SECON 2026).
 EAE is a holistic Efficient image Analysis framework for Edge devices that synergizes spectral-domain model compression with a hardware-aware dynamic inference mechanism.First, we introduce a novel frequency-domain knowledge distillation technique that regularizes student feature norms and orientations against a teacher network, achieving significant parameter reduction while preserving global receptive fields. Second, we dismantle the "exit-at-every-layer" paradigm common in dynamic networks, which we demonstrate creates prohibitive synchronization overheads for lightweight backbones. Instead, EAE employs a strategic, interval-based exit placement optimized for the specific latency characteristics of embedded GPUs. Furthermore, we propose a heterogeneous orchestration strategy that offloads lightweight gating and uncertainty estimation to the CPU, thereby minimizing GPU kernel interruptions.
 
 ![intro](EAE.pdf)
+![Uploading image.png…]()
+
 
 Our code is based on [GFNet](https://github.com/raoyongming/GFNet) and [JEI-DNN](https://github.com/networkslab/dynn).
 
