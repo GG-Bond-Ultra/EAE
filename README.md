@@ -27,10 +27,10 @@ Out of the box this codebase supports CIFAR10, CIFAR100, FLOWERS102.
 
 ### Evaluation
 
-To get the results on ActivityNet1.3, run the following command:
+To get the results, run the following command:
 
 ```
-python infer.py --data-path /path/to/ILSVRC2012/ --arch arch_name --model-path /path/to/model
+bash run_test.bash
 ```
 
 
